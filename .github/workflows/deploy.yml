@@ -27,4 +27,4 @@ jobs:
         context: .
         push: true
         # ⚠️ '내-도커-계정명'과 '내-앱-이름'을 본인 스토리지에 맞게 수정하세요.
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-guestbook:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-guestbook:latest jiwoninnuk/flask-guestbook:v1
